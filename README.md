@@ -6,6 +6,11 @@ Repositório para guarda todos os arquivos da minha aceleração em React pela C
 
 Para conhecer sobre a Codenation e suas acelerações em aberto acesse [Codenation](https://www.codenation.dev/)
 
+## Meus Resultados
+
+### Projetos Final Primeira Semana
+![](img/Print_Week1.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
