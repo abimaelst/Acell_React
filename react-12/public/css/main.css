@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	height: 45px;
+}
+
+.container {
+	width: 200vh;
+	margin: auto;
+	background: yellowgreen;
+}
+
+.header__logo img {
+	width: 100px;
+}
+
+
+
+
+
+
+
+
