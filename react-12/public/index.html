@@ -1,30 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instragram Codenation</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-    <header>
-        <div class="header">
-            <div class="container">
-                <a class="header__logo" href="#"><img src="img/instagram-logo.svg" alt="Instaram Logo"></a>
-                
-                <a class="header__icon" href="#"><i class=far fa-paper-plane></i>
-                </a>
-                
+<html class="no-js" lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>Instagram Codenation</title>
+		<meta name="description" content="" />
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-            </div>
-
-        </div>
-    </header>
-
-
-    
-</body>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/fontawesome.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="container">
+					<a class="header__logo" href="#">
+						<img src="img/instagram-logo.svg" alt="Instaram Logo">
+					</a>
+					
+					<a class="header__icon" href="#">
+						<i class="far fa-paper-plane"></i>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<section class="stories">
+				<div class="story__container">
+					<a href="#" class="user__thumb">
+						<span class="user__thumb__wrapper">
+							<img src="img/profiles/yoda/yoda-profile.jpg" alt="Stories Image Profile">
+						</span>
+					</a>
+					<a href="#" class="user__thumb user__thumb--new">
+						<span class="user__thumb__wrapper">
+							<img src="img/profiles/domino/domino-profile.jpg" alt="Stories Image Profile">
+						</span>
+					</a>
+					<a href="#" class="user__thumb">
+						<span class="user__thumb__wrapper">
+							<img src="img/profiles/carol/carol-profile.jpg" alt="Stories Image Profile">
+						</span>
+					</a>
+					<a href="#" class="user__thumb">
+						<span class="user__thumb__wrapper">
+							<img src="img/profiles/bruce/bruce-profile.jpg " alt="Stories Image Profile">
+						</span>
+					</a>					
+				</div>
+			</section>
+		</div>
+		<div class="container">
+			<section class="feed">
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/yoda/yoda-profile.jpg" alt="Icon Profile">
+								Mestre Yoda
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/yoda/yoda-3.jpg" alt="Post Image">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/carol/carol-profile.jpg" alt="Post Image">
+							</a>
+							<span>
+								curtido por <a href="#">Carol</a> e outras <a href="#">1540 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/domino/domino-profile.jpg" alt="Icon Profile">
+								Neena Thurman
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/domino/domino-2.jpg" alt="Post Image">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/bruce/bruce-profile.jpg" alt="">
+							</a>
+							<span>
+								curtido por <a href="#">Bruce</a> e outras <a href="#">930 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/carol/carol-profile.jpg" alt="Icon Profile">
+								Carol Danvers
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/carol/carol-6.jpg" alt="">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Profile Icon">
+							</a>
+							<span>
+								curtido por <a href="#">T'Challa</a> e outras <a href="#">1980 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Icon Profile">
+								T'Challa
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/black-panther/black-panther-2.jpg" alt="">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/yoda/yoda-profile.jpg" alt="Profile Icon">
+							</a>
+							<span>
+								curtido por <a href="#">Yoda</a> e outras <a href="#">970 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/domino/domino-profile.jpg" alt="Icon Profile">
+								Neena Thurman
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/domino/domino-3.jpg" alt="">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/gamora/gamora-profile.jpg" alt="Profile Icon">
+							</a>
+							<span>
+								curtido por <a href="#">Gamora</a> e outras <a href="#">5800 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+				<article class="post">
+					<figure class="feed__card">
+						<div class="feed__card__user">
+							<div>
+								<img src="img/profiles/gamora/gamora-profile.jpg" alt="Icon Profile">
+								Gamora
+							</div>
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<img src="img/profiles/gamora/gamora-4.jpg" alt="">
+						<div class="post__controls">
+							<div>
+								<a href="#">
+									<i class="far fa-heart"></i>
+								</a>
+								<a href="">
+									<i class="far fa-comment"></i>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<i class="far fa-bookmark"></i>
+								</a>
+							</div>
+						</div>
+						<div class="feed__card__liked">
+							<a href="#" class="user__thumb">
+								<img src="img/profiles/carol/carol-profile.jpg" alt="Profile Icon">
+							</a>
+							<span>
+								curtido por <a href="#">Carol</a> e outras <a href="#">9851 pessoas</a>
+							</span>
+						</div>
+					</figure>
+				</article>
+			</section>
+		</div>	
+	</body>
 </html>
