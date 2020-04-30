@@ -9,8 +9,8 @@ Para conhecer sobre a Codenation e suas acelerações em aberto acesse [Codenati
 ## Meus Resultados
 
 ### Projetos Final - Primeira Semana
-![](public/img/Print_Week1.png)
-![](public/img/Print_Week1_2.png)
+![](react-11/public/img/Print_Week1.png)
+![](react-11/public/img/Print_Week1_2.png)
 
 ## License
 
