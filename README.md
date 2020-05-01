@@ -14,7 +14,7 @@ Para conhecer sobre a Codenation e suas acelerações em aberto acesse [Codenati
 
 ### Projetos Final - Segunda Semana
 ![](react-12/public/img/Print_Week2.png)
-![](react-12/public/img/Print_Week2_2.png)
+![](react-12/public/img/Print_Week2_1.png)
 
 ## License
 
